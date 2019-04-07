@@ -1,0 +1,10 @@
+# iris flowers datasets
+library(e1071)
+data(iris)
+dim(iris)
+levels(iris$Species)
+head(iris)
+classifier<-naiveBayes(iris[,1:4], iris[,5]) 
+xtab=table(predict(classifier, iris[,-5]), iris[,5])
+library(caret) 
+confusionMatrix(xtab)

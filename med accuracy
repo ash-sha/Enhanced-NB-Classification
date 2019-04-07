@@ -1,0 +1,106 @@
+AlonDS
+
+NB:
+Confusion Matrix and Statistics
+
+         
+          colonc healthy
+  colonc      22       0
+  healthy     18      22
+                                         
+               Accuracy : 0.7097         
+                 95% CI : (0.5805, 0.818)
+    No Information Rate : 0.6452         
+    P-Value [Acc > NIR] : 0.1769         
+                                         
+                  Kappa : 0.4645         
+ Mcnemar's Test P-Value : 6.151e-05      
+                                         
+            Sensitivity : 0.5500         
+            Specificity : 1.0000         
+         Pos Pred Value : 1.0000         
+         Neg Pred Value : 0.5500         
+             Prevalence : 0.6452         
+         Detection Rate : 0.3548         
+   Detection Prevalence : 0.3548         
+      Balanced Accuracy : 0.7750         
+                                         
+       'Positive' Class : colonc         
+       
+       
+MAXENT:
+$meanAccuracy-Cross 5
+[1] 0.9292308
+
+
+GolubEset
+
+NB:
+Confusion Matrix and Statistics
+
+     
+      ALL AML
+  ALL  47   0
+  AML   0  25
+                                     
+               Accuracy : 1          
+                 95% CI : (0.9501, 1)
+    No Information Rate : 0.6528     
+    P-Value [Acc > NIR] : 4.604e-14  
+                                     
+                  Kappa : 1          
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.6528     
+         Detection Rate : 0.6528     
+   Detection Prevalence : 0.6528     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : ALL        
+       
+Maxent: cross 5
+ 0.8591866
+ 
+ 
+DLBCL:
+
+NB:
+Confusion Matrix and Statistics
+
+     
+      GCB ABC
+  GCB 105   1
+  ABC   7  81
+                                         
+               Accuracy : 0.9588         
+                 95% CI : (0.9204, 0.982)
+    No Information Rate : 0.5773         
+    P-Value [Acc > NIR] : <2e-16         
+                                         
+                  Kappa : 0.9163         
+ Mcnemar's Test P-Value : 0.0771         
+                                         
+            Sensitivity : 0.9375         
+            Specificity : 0.9878         
+         Pos Pred Value : 0.9906         
+         Neg Pred Value : 0.9205         
+             Prevalence : 0.5773         
+         Detection Rate : 0.5412         
+   Detection Prevalence : 0.5464         
+      Balanced Accuracy : 0.9627         
+                                         
+       'Positive' Class : GCB            
+       
+maxent:
+0.8808706
+
+
+
+
+
+
+
